@@ -67,3 +67,5 @@ PP050来源核查见[固定源码记录](docs/PP050-CONSUMPTION-DISCOVERY-202610
 [个人网站](https://nizuowanzhenbang.github.io/#projects)已展示数智化电厂项目及[介绍文章](https://nizuowanzhenbang.github.io/article.html?slug=smart-power-plant)；网站PR1/c88aefb合并，Pages部署成功。见[PP102日志](logs/2026-11-03-PP-102-personal-site.md)。模板中的其他项目与文章已标为示例；PP059盘点及并发仍待续。
 
 2026-11-03 用户反馈首页难以看到项目；PP103网站PR2/15d1903将数智化电厂提升到首屏，并核验线上内容；见[记录](logs/2026-11-03-PP-103-home-visibility.md)。
+
+2026-11-03 PP104已发布[数智化电厂技术作品页](https://nizuowanzhenbang.github.io/power-plant.html)，涵盖10个仓库、架构、技术案例与证据；网站PR3/10587a2，Pages及浏览器验证通过。以项目原型和实际验证范围为准，不虚构个人贡献。
