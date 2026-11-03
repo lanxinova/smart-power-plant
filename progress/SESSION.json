@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
-  "active": {
+  "active": null,
+  "last": {
     "task_id": "PP-105",
     "owner": "codex-portfolio-links-20261103",
     "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
@@ -13,23 +14,8 @@
       "pr": 4,
       "note": "网站PR4已合并，浏览器及源码链接检查通过，Pages部署中",
       "next_action": "确认线上页面、回写中央进度"
-    }
-  },
-  "last": {
-    "task_id": "PP-104",
-    "owner": "codex-technical-portfolio-20261103",
-    "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
-    "branch": "feat/power-plant-technical-showcase-20261103",
-    "started_at": "2026-11-03T20:14:51.607932+00:00",
-    "updated_at": "2026-11-03T20:19:45.235722+00:00",
-    "checkpoint": {
-      "phase": "merged",
-      "commit": "10587a290028412d53bdee790b36565440065699",
-      "pr": 3,
-      "note": "技术作品页PR3合并；桌面/手机浏览器验证通过，Pages部署中",
-      "next_action": "确认线上作品页与发布状态后回写"
     },
-    "release_reason": "网站PR3合并，Pages部署成功，技术作品页上线并回写",
-    "released_at": "2026-11-03T20:20:30.128585+00:00"
+    "release_reason": "PR4合并、Pages部署成功并核验线上链接，回写进度",
+    "released_at": "2026-11-03T22:19:24.449470+00:00"
   }
 }
