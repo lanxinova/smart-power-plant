@@ -1,6 +1,19 @@
 {
   "schema_version": 1,
-  "active": null,
+  "active": {
+    "task_id": "PP-102",
+    "owner": "codex-site-showcase-20261103",
+    "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
+    "branch": "feature/smart-power-plant-showcase-20261103",
+    "started_at": "2026-11-03T19:50:25.122670+00:00",
+    "updated_at": "2026-11-03T19:50:25.122684+00:00",
+    "checkpoint": {
+      "phase": "claimed",
+      "commit": null,
+      "note": "已认领；尚未完成实现",
+      "next_action": "读取实际代码与计划"
+    }
+  },
   "last": {
     "task_id": "PP-059",
     "owner": "codex-consumption-20261029",
