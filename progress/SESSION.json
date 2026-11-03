@@ -6,13 +6,13 @@
     "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
     "branch": "fix/power-plant-home-visibility-20261103",
     "started_at": "2026-11-03T19:56:00.017227+00:00",
-    "updated_at": "2026-11-03T19:57:11.372540+00:00",
+    "updated_at": "2026-11-03T19:57:30.468284+00:00",
     "checkpoint": {
-      "phase": "implemented",
-      "commit": "b7993256c5154d1726bf3e43da4fd2f3ea6fc75a",
-      "pr": null,
-      "note": "原首页首屏不显示电厂，回归先失败；新标题入口、资源版本及手机溢出修正，桌面手机浏览器回归通过",
-      "next_action": "合并并核验线上首屏"
+      "phase": "merged",
+      "commit": "15d190313ccd4703e7fc82b1f2b07bcc1a35e713",
+      "pr": 2,
+      "note": "首页首屏修复PR2合并；本地桌面手机验证通过，Pages部署中",
+      "next_action": "检查线上首页、发布状态，回写进度"
     }
   },
   "last": {
