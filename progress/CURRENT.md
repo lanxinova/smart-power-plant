@@ -65,3 +65,7 @@ PP050来源核查已保存，转PP058；执行者codex-consumption-20261029，20
 PP058煤场PR2/ccc6f7e已合并，候选三项CI通过，master运行中。现转PP059：codex-consumption-20261029，fix/yard-quantity-validation-20261029，先完成数量输入保护；并发和FIFO守恒仍须后续，不因输入校验完成而关闭PP059。
 
 本轮PP058已交付，PP059数量子单元已合并、整体仍进行中；下一步按[下一批入口](plans/NEXT-BATCH.md)处理盘点守恒、陈旧盘点及全入口并发。
+
+## PP102 个人网站项目展示（进行中）
+
+执行者codex-site-showcase-20261103；2026-11-03 UTC；网站仓库nizuowanzhenbang/nizuowanzhenbang.github.io，分支feature/smart-power-plant-showcase-20261103。新增真实项目卡片和介绍文章，保留其他模板内容与明确说明；先验证页面及链接。PP059并发/盘点工作保持待续。
