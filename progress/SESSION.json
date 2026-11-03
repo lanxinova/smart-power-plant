@@ -6,12 +6,13 @@
     "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
     "branch": "fix/portfolio-github-links-20261103",
     "started_at": "2026-11-03T22:16:38.289463+00:00",
-    "updated_at": "2026-11-03T22:16:38.289477+00:00",
+    "updated_at": "2026-11-03T22:18:33.902611+00:00",
     "checkpoint": {
-      "phase": "claimed",
-      "commit": null,
-      "note": "已认领；尚未完成实现",
-      "next_action": "读取实际代码与计划"
+      "phase": "implemented",
+      "commit": "194eac6932ed366595f36bcf863ecf3359e8279a",
+      "pr": null,
+      "note": "4个案例增加可见仓库/固定源码按钮，10仓库存在、8源码链接200，三尺寸浏览器检查通过",
+      "next_action": "合并并核验线上实际内容"
     }
   },
   "last": {
