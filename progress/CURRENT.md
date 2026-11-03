@@ -69,3 +69,7 @@ PP058煤场PR2/ccc6f7e已合并，候选三项CI通过，master运行中。现�
 ## PP102 个人网站项目展示（已交付）
 
 执行者codex-site-showcase-20261103；2026-11-03 UTC；网站仓库nizuowanzhenbang/nizuowanzhenbang.github.io，分支feature/smart-power-plant-showcase-20261103。网站PR1/c88aefb已合并，Pages部署成功并核验线上内容；新增项目卡片和介绍文章，保留并标注模板示例。PP059并发/盘点工作保持待续。
+
+## PP103 首页可见性修复（进行中）
+
+执行者codex-site-visibility-20261103，2026-11-03 UTC；网站分支fix/power-plant-home-visibility-20261103。用户反馈未看到项目；检查发现首屏不显示电厂内容，静态资源缓存最长600秒。修复首屏和版本化资源，验证后发布。
