@@ -8,7 +8,7 @@
 
 | 编号 | 优先级 | 状态 | 任务 | 验收与第一项动作 |
 |---|---|---|---|---|
-| PP-103 | 当前 | 进行中 | 电厂展示入口可见性修复 | 首页首屏直接展示项目并验证线上发布及缓存 |
+| PP-103 | 完成 | 已合并 | 电厂展示入口可见性修复 | 网站PR2/15d1903；桌面手机首屏检查、Pages部署及线上内容验证成功；[日志](logs/2026-11-03-PP-103-home-visibility.md) |
 | PP-102 | 完成 | 已合并 | 个人网站展示数智化电厂 | 网站PR1/c88aefb；桌面/手机浏览器验证及Pages部署成功；[日志](logs/2026-11-03-PP-102-personal-site.md) |
 | PP-101 | 完成 | 已合并 | 入门面试问答与练习手册 | [手册](docs/INTERVIEW-ANSWER-GUIDE.md)已通过PR15/971d2d8合并；候选progress CI通过；按真实参与填写，不虚构个人贡献 |
 | PP-100 | 完成 | 已合并 | 求职面试讲解、前沿升级与国产备用设计 | [讲解卡](docs/INTERVIEW-CARDS-20261014.md)与[技术设计](docs/INTERVIEW-TECH-ROADMAP-20261014.md)已通过[PR #14](https://github.com/nizuowanzhenbang/smart-power-plant/pull/14)合并，固定文档5f6e6ebb9724e6c7ef13ac3c4104cf730c237e06；25项接续/离线/在线索引核验及候选CI通过；新增智能能力及国产环境未实现 |
