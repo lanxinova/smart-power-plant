@@ -73,3 +73,7 @@ PP058煤场PR2/ccc6f7e已合并，候选三项CI通过，master运行中。现�
 ## PP103 首页可见性修复（已交付）
 
 执行者codex-site-visibility-20261103，2026-11-03 UTC；网站分支fix/power-plant-home-visibility-20261103。用户反馈未看到项目；检查发现首屏不显示电厂内容，静态资源缓存最长600秒。首页首屏项目标题与入口、版本化资源已修复；PR2/15d1903合并，Pages部署和线上内容核验成功。
+
+## PP104 求职技术作品页（进行中）
+
+执行者codex-technical-portfolio-20261103；2026-11-03 UTC，网站分支feat/power-plant-technical-showcase-20261103。用户希望面试展示中讲清技术，新增项目架构、四个案例、验证证据及真实边界；PP059继续保留待续。
