@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
-  "active": {
+  "active": null,
+  "last": {
     "task_id": "PP-102",
     "owner": "codex-site-showcase-20261103",
     "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
@@ -13,23 +14,8 @@
       "pr": 1,
       "note": "网站PR1已合并；桌面手机浏览器检查通过，Pages发布待确认",
       "next_action": "确认线上页面并回写进度"
-    }
-  },
-  "last": {
-    "task_id": "PP-059",
-    "owner": "codex-consumption-20261029",
-    "code_repository": "nizuowanzhenbang/coal-yard-management",
-    "branch": "fix/yard-quantity-validation-20261029",
-    "started_at": "2026-10-29T18:04:35.252417+00:00",
-    "updated_at": "2026-10-29T18:08:07.011051+00:00",
-    "checkpoint": {
-      "phase": "merged",
-      "commit": "551a0b8b3255ea03c0d65f79ab7af592473e1854",
-      "pr": 3,
-      "note": "数量输入与FIFO边界子单元已合并，候选三项CI通过；PP059总体仍需盘点/并发保护，master CI进行中",
-      "next_action": "核查master CI，接续盘点守恒与全入口并发保护"
     },
-    "release_reason": "数量子单元PR3合并；PP059整体仍进行中，下一轮实现盘点与并发保护",
-    "released_at": "2026-10-29T18:08:12.354978+00:00"
+    "release_reason": "网站PR1合并，Pages构建部署成功且线上文件核实新内容；正在回写中央记录",
+    "released_at": "2026-11-03T19:53:12.093220+00:00"
   }
 }
