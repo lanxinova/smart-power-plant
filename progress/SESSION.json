@@ -6,13 +6,13 @@
     "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
     "branch": "feature/smart-power-plant-showcase-20261103",
     "started_at": "2026-11-03T19:50:25.122670+00:00",
-    "updated_at": "2026-11-03T19:52:06.055936+00:00",
+    "updated_at": "2026-11-03T19:52:26.591694+00:00",
     "checkpoint": {
-      "phase": "implemented",
-      "commit": "bee2f58932624a0e0a4b050f774520bd7d333b57",
-      "pr": null,
-      "note": "项目卡片与介绍文章；桌面及手机真实浏览器验证、JS语法通过；候选PR准备中",
-      "next_action": "创建PR并验收线上Pages部署"
+      "phase": "merged",
+      "commit": "c88aefb724f253108c10b6b834200d3d9e168802",
+      "pr": 1,
+      "note": "网站PR1已合并；桌面手机浏览器检查通过，Pages发布待确认",
+      "next_action": "确认线上页面并回写进度"
     }
   },
   "last": {
