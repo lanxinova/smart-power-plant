@@ -78,6 +78,6 @@ PP058煤场PR2/ccc6f7e已合并，候选三项CI通过，master运行中。现�
 
 执行者codex-technical-portfolio-20261103；2026-11-03 UTC，网站分支feat/power-plant-technical-showcase-20261103。用户希望面试展示中讲清技术，网站PR3/10587a2合并上线；作品页包含项目架构、四个案例、验证证据及真实边界，Pages与桌面/手机验证通过。PP059继续保留待续。
 
-## PP105 技术作品页 GitHub 入口（进行中）
+## PP105 技术作品页 GitHub 入口（已交付）
 
-执行者codex-portfolio-links-20261103，2026-11-03 UTC；网站分支fix/portfolio-github-links-20261103。用户反馈找不到对应GitHub链接；为每项案例提供醒目的仓库与固定版本源码入口，核验实际链接。PP059保持待续。
+执行者codex-portfolio-links-20261103，2026-11-03 UTC；网站分支fix/portfolio-github-links-20261103。用户反馈找不到对应GitHub链接；网站PR4/19c8ece已合并并上线；每个案例有醒目的仓库和固定版本源码按钮，10仓库及8源码链接核验。PP059保持待续。
