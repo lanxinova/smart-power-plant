@@ -1,6 +1,19 @@
 {
   "schema_version": 1,
-  "active": null,
+  "active": {
+    "task_id": "PP-104",
+    "owner": "codex-technical-portfolio-20261103",
+    "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
+    "branch": "feat/power-plant-technical-showcase-20261103",
+    "started_at": "2026-11-03T20:14:51.607932+00:00",
+    "updated_at": "2026-11-03T20:14:51.607944+00:00",
+    "checkpoint": {
+      "phase": "claimed",
+      "commit": null,
+      "note": "已认领；尚未完成实现",
+      "next_action": "读取实际代码与计划"
+    }
+  },
   "last": {
     "task_id": "PP-103",
     "owner": "codex-site-visibility-20261103",
