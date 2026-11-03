@@ -1,6 +1,19 @@
 {
   "schema_version": 1,
-  "active": null,
+  "active": {
+    "task_id": "PP-105",
+    "owner": "codex-portfolio-links-20261103",
+    "code_repository": "nizuowanzhenbang/nizuowanzhenbang.github.io",
+    "branch": "fix/portfolio-github-links-20261103",
+    "started_at": "2026-11-03T22:16:38.289463+00:00",
+    "updated_at": "2026-11-03T22:16:38.289477+00:00",
+    "checkpoint": {
+      "phase": "claimed",
+      "commit": null,
+      "note": "已认领；尚未完成实现",
+      "next_action": "读取实际代码与计划"
+    }
+  },
   "last": {
     "task_id": "PP-104",
     "owner": "codex-technical-portfolio-20261103",
