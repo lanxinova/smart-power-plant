@@ -61,3 +61,7 @@ PP055煤质PR6/308b3ba：CI固定能效版本，使用两个隔离进程运行�
 ## 本轮煤场升级
 
 PP050来源核查见[固定源码记录](docs/PP050-CONSUMPTION-DISCOVERY-20261029.md)。PP058煤场PR2/ccc6f7e提供经过校验的账面FIFO出场依据；SQLite25、候选及master三项CI均通过，历史物理来源未被验证。PP059开展中：煤场PR3/551a0b8保护数量与单次FIFO扣减，SQLite53及候选/master三项CI通过；盘点调差与并发安全尚待加固，具体以[本轮日志](logs/2026-10-29-PP-058-059-yard.md)和SESSION为准。
+
+## 个人网站展示
+
+[个人网站](https://nizuowanzhenbang.github.io/#projects)已展示数智化电厂项目及[介绍文章](https://nizuowanzhenbang.github.io/article.html?slug=smart-power-plant)；网站PR1/c88aefb合并，Pages部署成功。见[PP102日志](logs/2026-11-03-PP-102-personal-site.md)。模板中的其他项目与文章已标为示例；PP059盘点及并发仍待续。
