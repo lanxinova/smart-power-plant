@@ -1,6 +1,6 @@
-## 电厂数智化进度与 Codex 接续
+## 电厂数智化进度与工作接续
 
-统一工作记忆已设在本仓库的 [progress/](progress/README.md)。Codex 每轮先读 [规则](progress/AGENTS.md)、[摘要](progress/SUMMARY.md)、[当前重点](progress/CURRENT.md)、[任务台账](progress/TASKS.md)，收尾回写实际结果、证据和下一步。原有作品介绍及发布证据继续保留；远期能力路线见 [数智化路线](progress/ROADMAP.md)。
+统一工作记忆已设在本仓库的 [progress/](progress/README.md)。智能协作每轮先读 [规则](progress/AGENTS.md)、[摘要](progress/SUMMARY.md)、[当前重点](progress/CURRENT.md)、[任务台账](progress/TASKS.md)，收尾回写实际结果、证据和下一步。原有作品介绍及发布证据继续保留；远期能力路线见 [数智化路线](progress/ROADMAP.md)。
 
 2026-10-10 已交付：11 个仓库的接续入口及隐患整改期限升级，见 [工作记忆接入](progress/evidence/2026-10-10-memory-integration.md) 和 [整改期限发布证据](progress/evidence/2026-10-10-hazard-deadlines.md)。下一项是煤质单位、基准与缺项核查。
 

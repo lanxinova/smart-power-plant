@@ -14,7 +14,7 @@
 | PP-102 | 完成 | 已合并 | 个人网站展示数智化电厂 | 网站PR1/c88aefb；桌面/手机浏览器验证及Pages部署成功；[日志](logs/2026-11-03-PP-102-personal-site.md) |
 | PP-101 | 完成 | 已合并 | 入门面试问答与练习手册 | [手册](docs/INTERVIEW-ANSWER-GUIDE.md)已通过PR15/971d2d8合并；候选progress CI通过；按真实参与填写，不虚构个人贡献 |
 | PP-100 | 完成 | 已合并 | 求职面试讲解、前沿升级与国产备用设计 | [讲解卡](docs/INTERVIEW-CARDS-20261014.md)与[技术设计](docs/INTERVIEW-TECH-ROADMAP-20261014.md)已通过[PR #14](https://github.com/nizuowanzhenbang/smart-power-plant/pull/14)合并，固定文档5f6e6ebb9724e6c7ef13ac3c4104cf730c237e06；25项接续/离线/在线索引核验及候选CI通过；新增智能能力及国产环境未实现 |
-| PP-001 | 完成 | 已合并 | 进度仓库与 Codex 接续入口 | 中央发布 b2b3073；11/11 根目录入口远端一致；当前环境全局规则已安装 |
+| PP-001 | 完成 | 已合并 | 进度仓库与智能协作接续入口 | 中央发布 b2b3073；11/11 根目录入口远端一致；当前环境全局规则已安装 |
 | PP-002 | 完成 | 已合并 | 开发接续可靠性与删除对话后的恢复复核 | [审查文档](docs/CONTINUITY-REVIEW-20261011.md)；只读核查/恢复指令已归档，不表示自动补强均实施；当时建议的接续缺口已由 PP-003/004/005 落地 |
 | PP-010 | 完成 | 已合并 | 隐患整改期限 | [PR #3](https://github.com/nizuowanzhenbang/plant-safety/pull/3)，`e5e62e7`；68 项后端及构建通过，包含并发冲突保护；见 [证据](evidence/2026-10-10-hazard-deadlines.md) |
 | PP-020 | 完成 | 已合并 | 煤质单位、基准、缺项和物理范围 | [PR #4](https://github.com/nizuowanzhenbang/coal-quality-monitor/pull/4)，`26bdbef`；201 后端/6 标签回归、构建及 PR/main CI 通过；见 [证据](evidence/2026-10-11-coal-quality-contract.md) |

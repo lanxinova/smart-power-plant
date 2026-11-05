@@ -2,7 +2,7 @@
 
 核对：2026-10-29 UTC。代码基线记录各模块最后已验证的业务发布；单独加入接续指令不改变原业务证据。本批设备采购/联动与安全接收已升级；接续工具/煤质/能效等保留各自固定验收证据，文档提交另记。
 
-| 仓库 | 默认分支 | 代码基线 | Codex 入口 |
+| 仓库 | 默认分支 | 代码基线 | 接续入口 |
 |---|---|---|---|
 | [smart-power-plant](https://github.com/nizuowanzhenbang/smart-power-plant) | `main` | [`5af33d2f3a97`](https://github.com/nizuowanzhenbang/smart-power-plant/commit/5af33d2f3a974cf0bfad54766a8bb2650cb76c18) | [已接入 `b2b30735f27c`](https://github.com/nizuowanzhenbang/smart-power-plant/commit/b2b30735f27c99666286a0f00a16647147deb5f0) |
 | [equipment-inspection](https://github.com/nizuowanzhenbang/equipment-inspection) | `main` | [`09ee584457a3`](https://github.com/nizuowanzhenbang/equipment-inspection/commit/09ee584457a3af50192a64d84930c0805bc9bfad)；[本轮证据](evidence/2026-10-28-visibility-coal-preview.md)；[PP-030/040证据](evidence/2026-10-14-procurement-safety.md) | [已接入 `8047049bb315`](https://github.com/nizuowanzhenbang/equipment-inspection/commit/8047049bb3158959172edc5a7148dd5f35be4217) |
