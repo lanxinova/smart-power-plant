@@ -1,4 +1,4 @@
-"""供 Codex 与人工共同使用的显式恢复/保存命令。"""
+"""供智能助手与人工共同使用的显式恢复/保存命令。"""
 import argparse
 import json
 from pathlib import Path
