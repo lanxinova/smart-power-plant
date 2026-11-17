@@ -1,0 +1,78 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches: ['**']
+    tags: ['**']
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: sync-gitlab
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: ${{ github.repository == 'lanxinova/smart-power-plant' && (github.event_name != 'push' || !github.event.deleted) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Push branches and tags, then verify
+        shell: bash
+        env:
+          GITLAB_MIRROR_TOKEN: ${{ secrets.GITLAB_MIRROR_TOKEN }}
+          GIT_TERMINAL_PROMPT: '0'
+          LC_ALL: C
+        run: |
+          if [[ -z "$GITLAB_MIRROR_TOKEN" ]]; then
+            echo "::error::The GITLAB_MIRROR_TOKEN repository secret is missing."
+            exit 1
+          fi
+
+          work_dir=$(mktemp -d)
+          trap 'rm -rf -- "$work_dir"' EXIT
+          source_url=https://github.com/lanxinova/smart-power-plant.git
+          target_url=https://gitlab.com/lanxinova/smart-power-plant.git
+
+          git init --bare "$work_dir/repo.git"
+          cd "$work_dir/repo.git"
+          git fetch --no-tags "$source_url" \
+            'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
+          git show-ref --verify refs/heads/main
+
+          cat > "$work_dir/askpass" <<'ASKPASS'
+          #!/usr/bin/env bash
+          case "$1" in
+            Username*) printf '%s\n' 'lanxinova' ;;
+            Password*) printf '%s\n' "$GITLAB_MIRROR_TOKEN" ;;
+            *) exit 1 ;;
+          esac
+          ASKPASS
+          chmod 700 "$work_dir/askpass"
+
+          if ! GIT_ASKPASS="$work_dir/askpass" git -c credential.helper= push --atomic --porcelain "$target_url" \
+              'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'; then
+            echo "::error::GitLab rejected the push. See the Git error above for authentication, branch protection, or a conflicting ref."
+            exit 1
+          fi
+
+          git for-each-ref --format='%(objectname) %(refname)' refs/heads refs/tags |
+            sort > "$work_dir/source"
+          git ls-remote --refs --heads --tags "$target_url" |
+            awk '{print $1, $2}' | sort > "$work_dir/target"
+
+          if [[ -n "$(comm -23 "$work_dir/source" "$work_dir/target")" ]]; then
+            echo "::error::GitLab has missing or mismatched source refs."
+            comm -23 "$work_dir/source" "$work_dir/target"
+            exit 1
+          fi
+
+          if [[ -n "$(comm -13 "$work_dir/source" "$work_dir/target")" ]]; then
+            echo "::warning::GitLab-only refs were retained."
+            comm -13 "$work_dir/source" "$work_dir/target"
+          fi
+
+          echo "Verified $(wc -l < "$work_dir/source") source refs on GitLab."
